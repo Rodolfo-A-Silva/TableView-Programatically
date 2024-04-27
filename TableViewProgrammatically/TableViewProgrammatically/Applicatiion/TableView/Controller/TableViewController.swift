@@ -7,13 +7,6 @@
 
 import UIKit
 
-// Estrutura para representar cada item na tabela.
-struct TableViewItens {
-    let title: String       // Título do item.
-    let iconName: String    // Nome do ícone a ser exibido ao lado do título.
-    let showArrow: Bool     // Booleano para mostrar ou ocultar a seta.
-}
-
 // Classe controladora que gerencia a exibição de uma tabela em uma tela do iOS.
 class TableViewController: UIViewController {
 
